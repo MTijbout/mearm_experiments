@@ -4,7 +4,7 @@
 
 First have a Raspberry Pi setup with Raspian. I prefer a headless setup but it doesn't really matter.
 
-It should have python3. You shoudl be abel to get to a command line on it.
+It should have python3. You should be able to get to a command line on it.
 
 ## Installing the python packages 
 
@@ -18,3 +18,6 @@ From a command line:
     $ sudo systemctl enable pigpiod
     $ sudo systemctl start pigpiod
 
+## MeArm Wiring
+
+The wiring I followed is from https://pinout.xyz/pinout/mearm_pi.
