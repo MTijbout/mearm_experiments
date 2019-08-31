@@ -1,7 +1,7 @@
 # How to connect GPIOzero to the MeArm
 
 This can be tried in a python3 repl (terminal session) then put into a file.
-You must have followed the setting up steps first.
+You must have followed the [setting up](preparing_the_pi.md) steps first.
 
     $ python3
     >>> from gpiozero.pins.pigpio import PiGPIOFactory
